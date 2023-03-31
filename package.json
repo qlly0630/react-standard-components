@@ -1,5 +1,5 @@
 {
-  "name": "react-standard-components",
+  "name": "q-react-standard-components",
   "version": "0.1.0",
   "license": "MIT",
   "module": "esm/index.js",
