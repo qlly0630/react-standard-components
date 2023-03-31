@@ -1,0 +1,18 @@
+{
+  "extends": "../../tsconfig.json",
+  "ts-node": {
+    "transpileOnly": true,
+    "require": [ "typescript-transform-paths/register" ],
+  },
+  "compilerOptions": {
+    "plugins": [
+      { "transform": "typescript-transform-paths" },
+      {
+        "transform": "typescript-transform-paths",
+        "afterDeclarations": true
+      }
+    ],
+    "declaration": true
+  },
+  "include": ["../../src"]
+}
